@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.outer-container{
+    background-color: rgb(135, 156, 250);
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.calculator-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    border: 5px solid rgb(32, 4, 243);
+}
+
+.output-container{
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear-button{
+    height: 80px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.operations-container{
+    height: 310px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clear-button > button{
+    background-color: orange;
+    color: white;
+    width: 280px;
+    height: 70px;
+    border-radius: 75%;
+    font-size: larger;
+}
+
+.clear-button > button:hover {
+    background-color: lightcoral;
+}
+
+.clear-button > button:active {
+    background-color: lightcoral;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.operation > button{
+    background-color: orange;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 75%;
+    font-size: larger;
+}
+
+.operation > button:hover {
+    background-color: lightcoral;
+}
+
+.operation > button:active {
+    background-color: lightcoral;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
